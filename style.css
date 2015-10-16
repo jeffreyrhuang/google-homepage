@@ -1,0 +1,153 @@
+body {
+	font-family: arial, sans-serif;
+	margin: 0;
+	background: #fff;
+	font-size: small;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	padding-right: 21px;
+}
+
+nav ul li {
+	float: right;
+	color: gray;
+	padding-left: 18px;
+}
+
+nav ul li a {
+	display: block;
+	text-decoration: none;
+	color: gray;
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+nav {
+	display: block;
+	text-align: right;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 20px;
+	min-width: 301px;
+	position: absolute;
+	width: 100%;
+	font-size: 13px;
+	right: 0;
+}
+
+#bell {
+	height: 27px;
+	width: 27px;
+}
+
+center {
+	display: block;
+	text-align: -webkit-center;
+	padding-top: 192px;
+}
+
+#searchform {
+	padding-bottom: 2px;
+    padding-top: 3px;
+    width: 590px;
+    border: 1px solid #d9d9d9;
+    height: 32px;
+    margin-top: 30px;
+    border-radius: 2px;
+}
+
+#searchform:hover {border: 1px solid silver;}
+
+#voice {
+	height: 27px;
+	width: 27px;
+	float: right;
+	padding-right: 10px
+}
+
+#buttons {
+	width: 304px;
+	position: relative;
+	top:20px;
+}
+
+
+#search-button {
+	background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 10px 16px;
+    text-align: center;
+    width: 105px;
+    float: left;
+    display: inline-block;
+}
+
+#search-button:hover {
+	border: 1px solid silver;
+	color: black;
+}
+
+#feeling-lucky {
+	background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 10px 16px;
+    text-align: center;
+    width: 110px;
+    float: right;
+    display: inline-block;
+}
+
+#feeling-lucky:hover {
+	border: 1px solid silver;
+	color: black;
+}
+
+footer {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    line-height: 40px;
+    min-width: 980px;
+}
+
+footer li {
+	display: inline-block;
+	padding-left: 27px;
+	color: #666;
+}
+
+footer li:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#leftfooter {
+	float: left;
+}
+
+#rightfooter {
+	float: right;
+}
